@@ -19,7 +19,9 @@
                 </li>
             </ul>
             <ul v-if="!showInput" class="flex items-center">
-                <li class="mx-4 flex justify-between items-center hover:text-primary">
+                <li class="mx-4 flex justify-between items-center hover:text-primary
+                            hidden sm:block"
+                >
                     <form action="" class="relative w-max mx-auto">
                         <input 
                             type="text" name="search" id="search" 
