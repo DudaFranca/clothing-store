@@ -1,7 +1,7 @@
-<h1 align="center">Electronic Store</h1>
+<h1 align="center">Clothing Store</h1>
 
 ## 🔖 About
-Online electronics store, fully responsive with a homepage, user page, product page, and cart.
+Online clothing store, fully responsive with a homepage, user page, product page, and cart.
 
 ## 🚀 Technologies used
 The project was developed using the following technologies
@@ -19,10 +19,10 @@ The project was developed using the following technologies
 
 ## 💻 How to compile the project
     # Clonar o repositório
-    $ git clone https://github.com/DudaFranca/electronic-store.git
+    $ git clone https://github.com/DudaFranca/clothing-store.git
 
     # Enter directory
-    $ cd electronic-store
+    $ cd clothing-store
 
     # Install the dependencies
     $ npm install
