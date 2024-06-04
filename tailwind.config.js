@@ -17,7 +17,10 @@ export default {
       colors: {
         'primary': '#4D5E80',
         'secondary': '#8C99B3', 
-      }
+      },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],

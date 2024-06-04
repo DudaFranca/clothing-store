@@ -2,6 +2,7 @@
    <div>
       <button 
          :class="classBtn"
+         class="hover:bg-black"
          type="button"
       >
          {{nameBtn}}
