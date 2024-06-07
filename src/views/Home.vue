@@ -22,6 +22,25 @@
                </div>
             </div>
          </div>
+         
+         <div class="grid grid-cols-2">
+            <div v-for="clothe in clothes" :key="clothe.id" class="m-3 rounded-xl overflow-hidden group">
+               <div class="bg-cover bg-center transition-transform duration-300 ease-in-out group-hover:scale-110">
+                  <img :src="clothe.img">
+                  <div 
+                     class="
+                        rounded-b-lg 
+                        text-black text-center 
+                        bg-[#EBECF0]
+                        p-5
+                     "
+                  >
+                     <p class="text-base font-black">{{ clothe.title }}</p>
+                     <p class="text-sm font-black mt-5">R$ {{ clothe.price }}</p>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
    </div>
 </template>
@@ -51,6 +70,11 @@
             banners: [
                { id: 1, first: "Holiday Atmosphere", second: "Laid-Back style", img: "bg-[url('@/assets/image/banner-one.png')]" },
                { id: 2, first: "Premium Quality", second: "All Case Details", img: "bg-[url('@/assets/image/banner-two.png')]" }
+            ],
+            clothes: [
+               { id: 1, title: "Dress with a Round Neckline & Long Sleeves", price: "120", img: "/clothing-store/src/assets/image/girl-one.jpg" },
+               { id: 2, title: "Dress with a Round Neckline & Long Sleeves", price: "120", img: "/clothing-store/src/assets/image/girl-one.jpg" },
+               { id: 3, title: "Dress with a Round Neckline & Long Sleeves", price: "120", img: "/clothing-store/src/assets/image/girl-one.jpg" }
             ]
          }
       }
