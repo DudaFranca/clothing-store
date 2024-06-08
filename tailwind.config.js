@@ -15,9 +15,12 @@ export default {
         xl: '1440px',
       },
       colors: {
-        'primary': '#737F99',
-        'secondary': '#FF6633'
-      }
+        'primary': '#4D5E80',
+        'secondary': '#8C99B3', 
+      },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="flex shadow justify-between items-center font-bold p-5">
+        <div class="flex shadow justify-between items-center font-bold p-5 text-secondary">
             <div class="flex items-center cursor-pointer text-xl md:mr-2">
                 <!-- <span class="material-symbols-outlined">
                     menu

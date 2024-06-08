@@ -8,3 +8,8 @@
         color: #737F99;
     }
 }
+
+.title-all {
+    position: relative;
+    bottom: 80px;
+}
